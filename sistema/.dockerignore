@@ -1,0 +1,7 @@
+.env
+tests
+storage/private/*
+storage/media/*
+*.backup
+*.log
+.git

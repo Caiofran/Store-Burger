@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Brasa Burger Co. · Painel administrativo</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="admin.css" />
+    <script>
+      try {
+        document.documentElement.dataset.theme =
+          localStorage.getItem("brasa-theme") || "dark";
+      } catch (e) {}
+    </script>
+    <script src="../shared.js" defer></script>
+    <script src="admin.js" defer></script>
+  </head>
+  <body>
+    <div id="admin-root"></div>
+    <dialog id="admin-dialog"></dialog>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

@@ -1,0 +1,342 @@
+{
+  "products": [
+    {
+      "id": "brasa-bacon",
+      "name": "Brasa Bacon",
+      "price": 3890,
+      "category": "burgers",
+      "badge": "O MAIS PEDIDO",
+      "featured": true,
+      "description": "Pão brioche, blend de 180g na brasa, cheddar, bacon crocante, cebola caramelizada e molho da casa.",
+      "ingredients": [
+        "Cheddar",
+        "Bacon",
+        "Cebola caramelizada",
+        "Molho da casa"
+      ],
+      "custom": true,
+      "active": true,
+      "image": "/assets/brasa-bacon.png",
+      "groups": [
+        "sabor-extra"
+      ]
+    },
+    {
+      "id": "costela",
+      "name": "Burger de Costela",
+      "price": 4290,
+      "category": "burgers",
+      "badge": "SABOR DE RESPEITO",
+      "featured": true,
+      "description": "Pão brioche, burger de costela de 180g, queijo prato, rúcula, cebola crispy e barbecue.",
+      "ingredients": [
+        "Queijo prato",
+        "Rúcula",
+        "Cebola crispy",
+        "Barbecue"
+      ],
+      "custom": true,
+      "active": true,
+      "image": "/assets/costela.png",
+      "groups": [
+        "sabor-extra"
+      ]
+    },
+    {
+      "id": "x-bacon",
+      "name": "X-Bacon da Brasa",
+      "price": 3290,
+      "category": "burgers",
+      "badge": "CLÁSSICO DA CASA",
+      "featured": true,
+      "description": "Pão macio, burger de 120g na brasa, cheddar derretido, bacon crocante e maionese da casa.",
+      "ingredients": [
+        "Cheddar",
+        "Bacon",
+        "Maionese da casa"
+      ],
+      "custom": true,
+      "active": true,
+      "image": "/assets/x-bacon.png",
+      "groups": [
+        "sabor-extra"
+      ]
+    },
+    {
+      "id": "salad",
+      "name": "Brasa Salad",
+      "price": 3190,
+      "category": "burgers",
+      "description": "Pão brioche, blend de 180g, queijo, alface fresquinha, tomate e molho da casa.",
+      "ingredients": [
+        "Queijo",
+        "Alface",
+        "Tomate",
+        "Molho da casa"
+      ],
+      "custom": true,
+      "active": true,
+      "image": "/assets/salad.png",
+      "groups": [
+        "sabor-extra"
+      ],
+      "featured": false
+    },
+    {
+      "id": "batata",
+      "name": "Batata Brasa",
+      "price": 2490,
+      "category": "porcoes",
+      "description": "Batatas douradas e crocantes, cobertas com cheddar cremoso e bacon. Porção de 350g.",
+      "ingredients": [
+        "Cheddar",
+        "Bacon"
+      ],
+      "custom": true,
+      "active": true,
+      "image": "/assets/batata.png",
+      "groups": [
+        "sabor-extra"
+      ],
+      "featured": false
+    },
+    {
+      "id": "combo-individual",
+      "name": "Combo Brasa",
+      "price": 5490,
+      "category": "combos",
+      "badge": "COMBINAÇÃO PERFEITA",
+      "description": "Brasa Bacon + batata frita individual de 150g + refrigerante de cola de 350ml. A fome encontrou seu par.",
+      "ingredients": [],
+      "custom": false,
+      "active": true,
+      "image": "/assets/combo-individual.png",
+      "groups": [],
+      "featured": false
+    },
+    {
+      "id": "combo-duplo",
+      "name": "Combo em Boa Companhia",
+      "price": 9490,
+      "category": "combos",
+      "description": "Dois Brasa Bacon + batata frita de 300g + dois refrigerantes de cola de 350ml. Melhor quando é junto.",
+      "ingredients": [],
+      "custom": false,
+      "active": true,
+      "image": "/assets/combo-duplo.png",
+      "groups": [],
+      "featured": false
+    },
+    {
+      "id": "cola",
+      "name": "Refrigerante de Cola",
+      "price": 790,
+      "category": "bebidas",
+      "description": "Cola geladinha, no copo de 350ml. O clássico que acompanha qualquer brasa.",
+      "ingredients": [],
+      "custom": false,
+      "active": true,
+      "image": "/assets/cola.png",
+      "groups": [],
+      "featured": false
+    },
+    {
+      "id": "limonada",
+      "name": "Limonada da Casa",
+      "price": 1290,
+      "category": "bebidas",
+      "description": "Limão espremido na hora, gelo e o equilíbrio entre doce e cítrico. Copo de 400ml.",
+      "ingredients": [],
+      "custom": false,
+      "active": true,
+      "image": "/assets/limonada.png",
+      "groups": [],
+      "featured": false
+    },
+    {
+      "id": "brownie",
+      "name": "Brownie da Brasa",
+      "price": 1990,
+      "category": "sobremesas",
+      "description": "Brownie de chocolate quentinho com sorvete de baunilha e calda de chocolate. O final que você merece.",
+      "ingredients": [],
+      "custom": false,
+      "active": true,
+      "image": "/assets/brownie.png",
+      "groups": [],
+      "featured": false
+    }
+  ],
+  "categories": [
+    {
+      "id": "burgers",
+      "name": "Burgers",
+      "icon": "burger",
+      "active": true,
+      "position": 0
+    },
+    {
+      "id": "combos",
+      "name": "Combos",
+      "icon": "bag",
+      "active": true,
+      "position": 1
+    },
+    {
+      "id": "porcoes",
+      "name": "Porções",
+      "icon": "fries",
+      "active": true,
+      "position": 2
+    },
+    {
+      "id": "bebidas",
+      "name": "Bebidas",
+      "icon": "drink",
+      "active": true,
+      "position": 3
+    },
+    {
+      "id": "sobremesas",
+      "name": "Sobremesas",
+      "icon": "dessert",
+      "active": true,
+      "position": 4
+    }
+  ],
+  "extras": [
+    {
+      "id": "sabor-extra",
+      "name": "Uma dose extra de sabor",
+      "active": true,
+      "type": "Múltipla",
+      "min": 0,
+      "max": 3,
+      "options": [
+        {
+          "id": "bacon",
+          "name": "Bacon extra",
+          "price": 500
+        },
+        {
+          "id": "cheddar",
+          "name": "Cheddar extra",
+          "price": 400
+        },
+        {
+          "id": "burger",
+          "name": "Burger extra · 180g",
+          "price": 1200
+        }
+      ]
+    }
+  ],
+  "coupons": [
+    {
+      "id": "brasa15",
+      "name": "BRASA15",
+      "discount": 15,
+      "minimum": 0,
+      "limit": 1,
+      "expires": "",
+      "description": "15% sobre os produtos. Entrega não inclusa.",
+      "active": true
+    }
+  ],
+  "areas": [
+    {
+      "id": "centro",
+      "name": "Centro",
+      "fee": 690,
+      "minimum": 0,
+      "time": "35–50 min",
+      "active": true
+    },
+    {
+      "id": "jardins",
+      "name": "Jardins",
+      "fee": 890,
+      "minimum": 0,
+      "time": "35–50 min",
+      "active": true
+    },
+    {
+      "id": "vila-nova",
+      "name": "Vila Nova",
+      "fee": 590,
+      "minimum": 0,
+      "time": "35–50 min",
+      "active": true
+    }
+  ],
+  "banners": [
+    {
+      "id": "principal",
+      "name": "A sua fome pede brasa.",
+      "subtitle": "Carne suculenta, pão macio e aquele sabor de verdade. Da nossa brasa pra sua casa.",
+      "cta": "Escolher meu burger",
+      "link": "#cardapio",
+      "image": "/assets/hero.png",
+      "active": true
+    }
+  ],
+  "settings": [
+    {
+      "id": "store",
+      "name": "Brasa Burger Co.",
+      "phone": "11999992026",
+      "address": "Rua das Brasas, 147 — Centro",
+      "logo": "",
+      "paused": false,
+      "scheduled": true,
+      "minimum": 0,
+      "slotCapacity": 10,
+      "privacyEmail": "privacidade@example.com",
+      "timezone": "America/Sao_Paulo",
+      "hours": [
+        {
+          "day": "Segunda",
+          "open": false,
+          "start": "18:00",
+          "end": "23:30"
+        },
+        {
+          "day": "Terça",
+          "open": true,
+          "start": "18:00",
+          "end": "23:30"
+        },
+        {
+          "day": "Quarta",
+          "open": true,
+          "start": "18:00",
+          "end": "23:30"
+        },
+        {
+          "day": "Quinta",
+          "open": true,
+          "start": "18:00",
+          "end": "23:30"
+        },
+        {
+          "day": "Sexta",
+          "open": true,
+          "start": "18:00",
+          "end": "23:30"
+        },
+        {
+          "day": "Sábado",
+          "open": true,
+          "start": "18:00",
+          "end": "23:30"
+        },
+        {
+          "day": "Domingo",
+          "open": true,
+          "start": "18:00",
+          "end": "23:30"
+        }
+      ]
+    }
+  ]
+}
